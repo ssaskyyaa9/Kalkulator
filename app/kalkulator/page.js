@@ -88,7 +88,7 @@ export default function Calculator() {
         <div style={{ background: "#dce6dc", borderRadius: "14px", padding: "14px 16px", marginBottom: "16px", }} >
           <div style={{ display: "flex", justifyContent: "space-between", fontSize: "11px", color: "#5a6b5a", marginBottom: "4px", fontWeight: 600, }} >
             <span>{memory !== 0 ? "M" : ""}</span>
-            <span style={{ letterSpacing: "1px" }}>Hasil Perhitungan</span>
+            <span style={{ letterSpacing: "1px" }}>Hasil</span>
           </div>
           <div style={{ textAlign: "right", fontSize: "34px", fontWeight: 700, color: "#2c2c2c", fontFamily: "monospace", overflow: "hidden", whiteSpace: "nowrap", }} > {display} </div>
         </div>
